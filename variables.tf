@@ -21,3 +21,8 @@ variable "environment" {
   type        = string
   default     = "production"
 }
+
+variable "acm_certificate_arn" {
+  description = "Issued ACM certificate (us-east-1) attached to CloudFront"
+  type        = string
+}
